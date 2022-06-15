@@ -1,0 +1,72 @@
+.wrapper {
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+  border-radius: 3px;
+}
+
+.top {
+  color: rgb(29, 60, 171);
+  font-weight: bold;
+  padding: 10px 0;
+  font-size: 90%;
+}
+
+.top span {
+  padding: 1.5px 6px;
+  background-color: blue;
+  color: white;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+}
+
+.tableWrapper {
+  max-height: 60vh;
+  max-height: 60vh;
+  overflow-y: scroll;
+  font-size: 90%;
+  font-weight: 550;
+}
+
+.table th {
+  border-bottom: 1px solid lightgrey;
+  padding: 5px 0;
+  border-right: 1px solid lightgrey;
+  margin: 0;
+}
+
+.table td {
+  padding: 5px 0;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.table tr td {
+  padding: 10px 0;
+}
+
+.table td:nth-child(1) {
+  background-color: rgb(240, 240, 240);
+  width: 30%;
+  height: 100%;
+  text-align: left;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.table td:nth-child(1):hover {
+  background-color: rgb(121, 245, 245);
+}
+
+@media (max-width: 570px) {
+  .wrapper {
+    margin: 5px;
+  }
+}

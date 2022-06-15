@@ -1,0 +1,56 @@
+.wrapper {
+  padding: 15px;
+  border-radius: 3px;
+  margin: 15px;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+}
+
+.wrapper .title {
+  text-align: center;
+  font-weight: 550;
+  margin: 5px;
+  font-size: 130%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item .title {
+  font-size: 110%;
+  text-transform: capitalize;
+  font-weight: 550;
+}
+
+.item .number {
+  font-size: 145%;
+  font-weight: 550;
+}
+
+.confirmed {
+  color: red;
+}
+
+.recovered {
+  color: green;
+}
+
+.deaths {
+  color: grey;
+}
+
+@media (max-width: 570px) {
+  .wrapper {
+    /* padding: 5px; */
+    margin: 5px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    border-radius: 5px;
+    font-size: 80%;
+  }
+
+  .graph {
+    width: 100%;
+  }
+}
